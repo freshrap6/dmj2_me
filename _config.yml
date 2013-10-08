@@ -1,19 +1,19 @@
-title:            Site Title
-tagline:          A short tagline
-description:      Describe your website.
+title:            The Tech Athlete
+tagline:          The Sports Geek
+description:      Be Different, take risks, and live.
 #Comment out url when working locally to resolve base urls correctly
 url:              http://freshrap6.github.io
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           Douglas Jones
   avatar:         bio-photo.jpg
-  bio:            "Describe your self."
-  email:          your@email.com
+  bio:            "Geek, Athlete, Photographer, and Chef"
+  email:          d.m.jones2@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
-  twitter:        
+  twitter:        @freshrap6
   facebook:       
-  github:         
+  github:         @freshrap6
   linkedin:       
   instagram:      
   lastfm:         
@@ -41,7 +41,7 @@ links:
     external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Europe/London
 future:      true
 pygments:    true
 markdown:    kramdown
