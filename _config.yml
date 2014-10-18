@@ -2,7 +2,7 @@ title:            The Tech Athlete
 tagline:          The Sports Geek
 description:      Be Different, take risks, and live.
 #Comment out url when working locally to resolve base urls correctly
-url:              http://freshrap6.github.io
+#url:              http://freshrap6.github.io
 
 # Owner/author information
 owner:
@@ -12,20 +12,20 @@ owner:
   email:          d.m.jones2@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        freshrap6
-  facebook:       
+  facebook:
   github:         freshrap6
-  linkedin:       
-  instagram:      
-  lastfm:         
-  tumblr:         
+  linkedin:
+  instagram:
+  lastfm:
+  tumblr:
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:    
+  google_plus:
 
 # Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
+google_analytics:
+google_verify:
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:        
+bing_verify:
 
 # Links to include in top navigation
 # For external links add external: true
@@ -57,7 +57,7 @@ kramdown:
   use_coderay: false
 
   coderay:
-    coderay_line_numbers: 
+    coderay_line_numbers:
     coderay_line_numbers_start: 1
     coderay_tab_width: 4
     coderay_bold_every: 10
