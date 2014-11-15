@@ -1,6 +1,6 @@
 title:            The Tech Athlete
 tagline:          The Sports Geek
-description:      Be Different, take risks, and live.
+description:      Living at the speed of me.
 #Comment out url when working locally to resolve base urls correctly
 #url:              http://freshrap6.github.io
 
@@ -8,7 +8,7 @@ description:      Be Different, take risks, and live.
 owner:
   name:           Douglas Jones
   avatar:         bio-photo.jpg
-  bio:            "Athlete, Chef, Geek, Photographer"
+  bio:            "Athlete, Chef, Techie, Photographer"
   email:          d.m.jones2@gmail.com
   # Social networking links are used in author-bio sidebar. Update and remove as you like.
   twitter:        freshrap6
@@ -34,11 +34,11 @@ links:
     url: /about
   - title: Articles
     url: /articles
-  - title: Theme Setup
-    url: /theme-setup
-  - title: Made Mistakes
-    url: http://mademistakes.com
-    external: true
+  #- title: Theme Setup
+  #  url: /theme-setup
+  #- title: Made Mistakes
+  #  url: http://mademistakes.com
+   # external: true
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Europe/London
