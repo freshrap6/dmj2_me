@@ -11,7 +11,7 @@ image:
   creditlink: http://texturelovers.com
 ---
 
-My wife and I have been trying to reduce the amount of carbs we are consuming on a regular basis.  So I bought a bunch of sweet potatoes and made a big thing of mashed sweet potatoes, which we along side our baked chicken and veggies.
+My wife and I have been trying to reduce the amount of carbs we are consuming on a regular basis.  So I bought a bunch of sweet potatoes and made a big thing of mashed sweet potatoes, which we ate along with our baked chicken and veggies.
 
 One week I bought too many, and I began to think of what else I could do with them.  I must've had sweet potato french fries the day before and that got me wondering.
 
