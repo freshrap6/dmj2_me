@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 title:            The Tech Athlete
 tagline:          The Sports Geek
 description:      Living at the speed of me.
@@ -48,6 +49,25 @@ markdown:    kramdown
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
+=======
+# Site wide configuration
+
+title:            The Tech Athlete
+locale:           en_US
+url:
+
+
+# Jekyll configuration
+
+permalink:   /:categories/:title/
+markdown:    kramdown
+highlighter: pygments
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
 
 kramdown:
   auto_ids: true
@@ -56,6 +76,7 @@ kramdown:
   toc_levels: 1..6
   use_coderay: false
 
+<<<<<<< HEAD
   coderay:
     coderay_line_numbers:
     coderay_line_numbers_start: 1
@@ -65,3 +86,37 @@ kramdown:
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+=======
+
+# Site owner
+owner:
+  name: Douglas Jones
+  avatar: bio-photo.jpg
+  bio: "A techie athlete, who cooks..."
+  email: hello@dmj2.me
+  disqus-shortname:
+  twitter: freshrap6
+  facebook: #username
+  google:
+    plus: #username
+    analytics: UA-34911786-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: freshrap6
+  stackoverflow: #http://stackoverflow.com/users/123456/username
+  linkedin: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: freshrap6
+  soundcloud: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627

@@ -4,11 +4,19 @@ title: Mailbox, Inbox Zero, and Me
 description: "Just about everything you'll need to style in the theme: headings, paragraphs, blockquotes, tables, code blocks, and more."
 modified: 2013-05-31
 category: articles
+<<<<<<< HEAD
 tags: [tech, email, mailbox]
 image:
   feature: texture-feature-05.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
+=======
+tags: [tech, email, mailboxapp]
+image:
+  feature: sample-image-5.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
 ---
 
 This weekend I rediscovered [Mailbox](http://www.mailboxapp.com) and [inbox zero](http://www.43folders.com/izero).  I tried using Mailbox a few years ago, but I didn't get it.  I heard it was supposed to change the way I used email, but I didn't get it.  Last week I got my betacoin and I wanted try Mailbox out.  I don't use a desktop mail client, so I was interested in trying one out.

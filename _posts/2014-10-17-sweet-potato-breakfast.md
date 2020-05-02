@@ -6,9 +6,15 @@ modified: 2014-10-17
 category: articles
 tags: [food, sweetpotato, breakfast, paleo]
 image:
+<<<<<<< HEAD
   feature: texture-feature-05.jpg
   credit: Texture Lovers
   creditlink: http://texturelovers.com
+=======
+  feature: sample-image-6.jpg
+  credit: WeGraphics
+  creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
 ---
 
 My wife and I have been trying to reduce the amount of carbs we are consuming on a regular basis.  So I bought a bunch of sweet potatoes and made a big thing of mashed sweet potatoes, which we ate along with our baked chicken and veggies.

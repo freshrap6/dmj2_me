@@ -13,6 +13,7 @@ module.exports = function(grunt) {
         '!assets/js/scripts.min.js'
       ]
     },
+<<<<<<< HEAD
     recess: {
       dist: {
         options: {
@@ -29,6 +30,8 @@ module.exports = function(grunt) {
         }
       }
     },
+=======
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
     uglify: {
       dist: {
         files: {
@@ -64,6 +67,7 @@ module.exports = function(grunt) {
       }
     },
     watch: {
+<<<<<<< HEAD
       less: {
         files: [
           'assets/less/*.less',
@@ -71,6 +75,8 @@ module.exports = function(grunt) {
         ],
         tasks: ['recess']
       },
+=======
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
       js: {
         files: [
           '<%= jshint.all %>'
@@ -80,7 +86,10 @@ module.exports = function(grunt) {
     },
     clean: {
       dist: [
+<<<<<<< HEAD
         'assets/css/main.min.css',
+=======
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
         'assets/js/scripts.min.js'
       ]
     }
@@ -91,14 +100,20 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
+<<<<<<< HEAD
   grunt.loadNpmTasks('grunt-recess');
+=======
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-svgmin');
 
   // Register tasks
   grunt.registerTask('default', [
     'clean',
+<<<<<<< HEAD
     'recess',
+=======
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
     'uglify',
     'imagemin',
     'svgmin'
@@ -106,5 +121,12 @@ module.exports = function(grunt) {
   grunt.registerTask('dev', [
     'watch'
   ]);
+<<<<<<< HEAD
+=======
+  grunt.registerTask('images', [
+    'imagemin',
+    'svgmin'
+  ]);
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
 
 };

@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 layout: none
 ---
 <?xml version="1.0" encoding="utf-8"?>
@@ -6,6 +7,15 @@ layout: none
 <title type="text">{{ site.title }}</title>
 <subtitle type="text">{{ site.tagline }}</subtitle>
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
+=======
+sitemap: false
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+<title type="text">{{ site.title }}</title>
+<generator uri="https://github.com/jekyll/jekyll">Jekyll</generator>
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
 <link rel="self" type="application/atom+xml" href="{{ site.url }}/feed.xml" />
 <link rel="alternate" type="text/html" href="{{ site.url }}" />
 <updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -13,10 +23,21 @@ layout: none
 <author>
   <name>{{ site.owner.name }}</name>
   <uri>{{ site.url }}/</uri>
+<<<<<<< HEAD
   <email>{{ site.owner.email }}</email>
 </author>
 {% for post in site.posts limit:20 %}
 
+=======
+  {% if site.owner.email %}<email>{{ site.owner.email }}</email>{% endif %}
+</author>
+{% for post in site.posts limit:20 %}
+{% if post.author %}
+  {% assign author = site.data.authors[post.author] %}
+{% else %}
+  {% assign author = site.owner %}
+{% endif %}
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
 <entry>
   <title type="html"><![CDATA[{{ post.title | cdata_escape }}]]></title>
   <link rel="alternate" type="text/html" href="{{ site.url }}{{ post.url }}" />
@@ -26,6 +47,7 @@ layout: none
   {% else %}<published>{{ post.date | date_to_xmlschema }}</published>
   <updated>{{ post.date | date_to_xmlschema }}</updated>{% endif %}
   <author>
+<<<<<<< HEAD
     <name>{{ site.owner.name }}</name>
     <uri>{{ site.url }}</uri>
     <email>{{ site.owner.email }}</email>
@@ -35,3 +57,14 @@ layout: none
 </entry>
 {% endfor %}
 </feed>
+=======
+    <name>{{ author.name }}</name>
+    <uri>{{ site.url }}</uri>
+    {% if author.email %}<email>{{ author.email }}</email>{% endif %}
+  </author>
+  <content type="html">{{ post.content | xml_escape }}
+  &lt;p&gt;&lt;a href=&quot;{{ site.url }}{{ post.url }}&quot;&gt;{{ post.title }}&lt;/a&gt; was originally published by {{ author.name }} at &lt;a href=&quot;{{ site.url }}&quot;&gt;{{ site.title }}&lt;/a&gt; on {{ post.date | date: "%B %d, %Y" }}.&lt;/p&gt;</content>
+</entry>
+{% endfor %}
+</feed>
+>>>>>>> 8bdf13ed21f8fe69028643ac08c44afb9c84d627
